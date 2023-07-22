@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  
+}
+body {
+    margin: 100px 0px;
+    font-style: bold;
+}
+
+hr {
+    border-color: rgb(0, 0, 0);
+    margin: 10px 675px;
+}
+
+.text-centre{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.mx-auto{
+  margin: 0 35px;
+}
+
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+
+.button{
+  width: 66px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(1 23 147 / 81%);
+  padding: 23px;
+  font-weight: bolder;
+  margin: 0 2px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.zero{
+  width: 135px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(1 23 147 / 81%);
+  padding: 23px;
+  margin: 0 2px;
+  font-weight: bolder;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer; 
+}
+
+.items-center{
+  align-items: center ;
+}
+
+.row{
+  margin: 6px 0;
+}
+
+.row input{
+  margin: 0;
+  color: rgb(0, 0, 0);
+  padding: 10px 40px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 200px;
+}
